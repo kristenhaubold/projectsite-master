@@ -1,0 +1,145 @@
+body {
+/* font-family: 'Oswald', sans-serif; */
+}
+
+.containers {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project {
+  height: auto;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#hovertransition {
+  color: black;
+  background-color: orange;
+  width: 50%;
+  height: 25%;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  border: 10px solid black;
+  transition: 2s;
+}
+
+#hovertransition:hover {
+  color: orange;
+  background-color: black;
+  width: 75%;
+  height: 25%;
+  padding-top: 75px !important;
+  padding-bottom: 75px !important;
+  border: 20px dotted white;
+}
+
+#rainbow {
+  background-color: grey;
+  color: black;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  border-radius: 30px;
+  width: 50%;
+}
+
+.orangebackground {
+  background-image: linear-gradient(to right, #F7621E, #F7931E);
+}
+
+.whitetext {
+  color: white !important;
+}
+
+.row1{
+  display: inline-block;
+  width: 100%;
+}
+
+.row2{
+  padding-top: 2%;
+  display: inline-block;
+  width: 100%;
+}
+
+.row3{
+  display: inline-block;
+  width: 100%;
+}
+
+#toknow {
+  display: inline-block;
+  width: 60%;
+  float: left;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+#tolearn {
+  display: inline-block;
+  width: 35%;
+  float: right;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+#youknow {
+  display: inline-block;
+  width: 60%;
+  float: left;
+  font-size: 90%;
+}
+
+#language {
+  display: inline-block;
+  width: 40%;
+  float: right;
+  font-weight: bold;
+  font-size: 90%;
+  padding-left: 6%;
+  color: #00BFFF;
+}
+
+.leftofcard {
+  /* background-image: linear-gradient(to right, #0068FF, #00BCFF); */
+  background-color: blue;
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+}
+
+.rightofcard {
+  display: inline-block;
+}
+
+.getstartedbutton {
+    background-image: linear-gradient(to right, #0068FF, #00BCFF);
+    display: block;
+    height: 35px;
+    border-radius: 50px !important;
+    width: 20%;
+    color: white;
+    border: none;
+}
+
+pre {
+  color: black;
+}
+
+li {
+  padding-top: 5px;
+}
+
+.collapsibletitles {
+  color: #00BFFF;
+}
+
+code {
+  color: blue;
+}
+
+#biopage {
+  width: 70%;
+  height: 70%;
+}
