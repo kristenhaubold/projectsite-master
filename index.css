@@ -121,6 +121,7 @@ body {
     width: 20%;
     color: white;
     border: none;
+    cursor:pointer;
 }
 
 pre {
